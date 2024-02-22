@@ -1,0 +1,35 @@
+{
+  "name": "fusion-api",
+  "version": "1.0.0",
+  "description": "backend for thefusionclub.in",
+  "main": "index.js",
+  "scripts": {
+    "test": "node socketTests.js",
+    "start": "nodemon index.js"
+  },
+  "keywords": [
+    "thefusionclub.in",
+    "api",
+    "backend"
+  ],
+  "author": "Manomay Kagalkar (@gitmank)",
+  "license": "",
+  "dependencies": {
+    "@types/node": "^18.0.6",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "eiows": "^6.7.2",
+    "express": "^4.18.2",
+    "http": "^0.0.1-security",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "6.2",
+    "mongoose": "^8.0.0",
+    "node-fetch": "^3.2.6",
+    "socket.io": "^4.7.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1",
+    "socket.io-client": "^4.7.2"
+  }
+}
